@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
 <style>
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: black;
   overflow: hidden;
   
 }
 
 li {
   float: left;
-  border-right:2px solid rgb(104, 48, 3);
+  border-style: ridge;
 }
 
 li:last-child {
@@ -20,8 +28,8 @@ li:last-child {
 }
     
 li a {
-  display: block;
-  color: rgb(226, 156, 64);
+  display: inline-block;
+  color: rgb(226, 241, 13);
   text-align: center;
   padding: 23px 30px;
   text-decoration: none;
@@ -51,18 +59,18 @@ li a:hover:not(.active) {
   <li><a href="portfolio.html">PORTFOLIO</a></li>
   <li style="float:right"><a href="#ABOUT">ABOUT</a></li>
   <li style="float:right"><a href="signup.html">SIGN UP</a></li>
-  <input [type=text]
+</ul>
+  
 </body>
-<center><i><h1 style="color:#FFFFFF;">IAN CHOCOLATE</h1></i></center>
-<style>
 <body>
-<style>
-    h1{
-        color: rgb(112, 66, 5);
-        text-align:center
-    }
-    
-</style>
+    <section>
+    <h3>OBRA<br>CHOCOLATES</h3>
+
+    <div class="search-box">
+        <input type="text" placeholder="search">
+        <i class="iconfont-search-2"></i>
+    </div>
+    </section>
 
 </body>
 </html>
